@@ -3,7 +3,7 @@
 This is my final project for the degree CM3070.
 
 
-## Prerequisites
+## Relevant information
 
 - **Dataset**: You need to download and place the butterfly dataset in the `./datasets/butterfly dataset/` directory to execute the scripts. The dataset is required for both training and evaluation. Originally obtained from: https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification.
 - **Hardware**: This project was developed and tested using an A100 GPU from Google Colaboratory.
@@ -12,6 +12,12 @@ This is my final project for the degree CM3070.
     ```bash
     pip install -r requirements.txt
     ```
+- **Notebook**: I have included a notebook called `train_evaluation_pipeline.ipynb` that I used for my experiments. It provides a step-by-step pipeline for training and evaluating models.
+
+    **You can also check the notebook on Google Colab!** 
+    Click the button below:  
+
+    [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CjVe-BjD535vh7c6U_W8w7DiVtBt0WXY?usp=sharing)
 
 ### Training the models
 
@@ -44,7 +50,3 @@ python evaluate.py --model_name <model_name> --checkpoint_path <path_to_checkpoi
 ```bash
 python evaluate.py --model_name resnet50 --checkpoint_path ./logs/butterfly_classifier_resnet50/checkpoints/butterfly-epoch=09-val_loss=0.1234_resnet50.ckpt
 ```
-
-## Additional Notes
-
-- **Notebook**: I have included a notebook called `train_evaluation_pipeline.ipynb` that I used for my experiments. It provides a step-by-step pipeline for training and evaluating models.
