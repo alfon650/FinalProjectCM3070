@@ -17,7 +17,7 @@ This is my final project for the degree CM3070.
     **You can also check the notebook on Google Colab!** 
     Click the button below:  
 
-    [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CjVe-BjD535vh7c6U_W8w7DiVtBt0WXY?usp=sharing)
+    <a href="https://colab.research.google.com/drive/1CjVe-BjD535vh7c6U_W8w7DiVtBt0WXY?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
 
 ### Training the models
 
