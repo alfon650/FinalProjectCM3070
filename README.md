@@ -5,7 +5,7 @@ This is my final project for the degree CM3070.
 
 ## Prerequisites
 
-- **Dataset**: You need to download and place the butterfly dataset in the `./datasets/butterfly dataset/` directory to execute the scripts. The dataset is required for both training and evaluation.
+- **Dataset**: You need to download and place the butterfly dataset in the `./datasets/butterfly dataset/` directory to execute the scripts. The dataset is required for both training and evaluation. Originally obtained from: https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification.
 - **Hardware**: This project was developed and tested using an A100 GPU from Google Colaboratory.
 - **Dependencies**: Ensure you have all required Python libraries installed 
 
